@@ -1,0 +1,122 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/08/2020 15:42
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-placeholder:before { content: "\f100"; }
+.flaticon-place:before { content: "\f101"; }
+.flaticon-wardrobe:before { content: "\f102"; }
+.flaticon-closet:before { content: "\f103"; }
+.flaticon-kitchen:before { content: "\f104"; }
+.flaticon-fridge:before { content: "\f105"; }
+.flaticon-door:before { content: "\f106"; }
+.flaticon-bed:before { content: "\f107"; }
+.flaticon-relax:before { content: "\f108"; }
+.flaticon-washing-machine:before { content: "\f109"; }
+.flaticon-desk:before { content: "\f10a"; }
+.flaticon-tv-screen:before { content: "\f10b"; }
+.flaticon-air-conditioner:before { content: "\f10c"; }
+.flaticon-bed-1:before { content: "\f10d"; }
+.flaticon-chair:before { content: "\f10e"; }
+.flaticon-sofa:before { content: "\f10f"; }
+.flaticon-table:before { content: "\f110"; }
+.flaticon-sofa-1:before { content: "\f111"; }
+.flaticon-fan:before { content: "\f112"; }
+.flaticon-mixer-blender:before { content: "\f113"; }
+.flaticon-bed-2:before { content: "\f114"; }
+.flaticon-mattress:before { content: "\f115"; }
+.flaticon-sound-system:before { content: "\f116"; }
+.flaticon-reply-all:before { content: "\f117"; }
+.flaticon-shopping-cart:before { content: "\f118"; }
+.flaticon-shopping-bag:before { content: "\f119"; }
+.flaticon-delivery:before { content: "\f11a"; }
+.flaticon-express-delivery:before { content: "\f11b"; }
+.flaticon-user-1:before { content: "\f11c"; }
+.flaticon-follow:before { content: "\f11d"; }
+.flaticon-question:before { content: "\f11e"; }
+.flaticon-whatsapp:before { content: "\f11f"; }
+.flaticon-instagram:before { content: "\f120"; }
+.flaticon-facebook-1:before { content: "\f121"; }
+.flaticon-placeholder-1:before { content: "\f122"; }
+.flaticon-share:before { content: "\f123"; }
+.flaticon-mail:before { content: "\f124"; }
+.flaticon-email:before { content: "\f125"; }
+.flaticon-like:before { content: "\f126"; }
+.flaticon-list:before { content: "\f127"; }
+.flaticon-menu:before { content: "\f128"; }
+    
+    $font-Flaticon-placeholder: "\f100";
+    $font-Flaticon-place: "\f101";
+    $font-Flaticon-wardrobe: "\f102";
+    $font-Flaticon-closet: "\f103";
+    $font-Flaticon-kitchen: "\f104";
+    $font-Flaticon-fridge: "\f105";
+    $font-Flaticon-door: "\f106";
+    $font-Flaticon-bed: "\f107";
+    $font-Flaticon-relax: "\f108";
+    $font-Flaticon-washing-machine: "\f109";
+    $font-Flaticon-desk: "\f10a";
+    $font-Flaticon-tv-screen: "\f10b";
+    $font-Flaticon-air-conditioner: "\f10c";
+    $font-Flaticon-bed-1: "\f10d";
+    $font-Flaticon-chair: "\f10e";
+    $font-Flaticon-sofa: "\f10f";
+    $font-Flaticon-table: "\f110";
+    $font-Flaticon-sofa-1: "\f111";
+    $font-Flaticon-fan: "\f112";
+    $font-Flaticon-mixer-blender: "\f113";
+    $font-Flaticon-bed-2: "\f114";
+    $font-Flaticon-mattress: "\f115";
+    $font-Flaticon-sound-system: "\f116";
+    $font-Flaticon-reply-all: "\f117";
+    $font-Flaticon-shopping-cart: "\f118";
+    $font-Flaticon-shopping-bag: "\f119";
+    $font-Flaticon-delivery: "\f11a";
+    $font-Flaticon-express-delivery: "\f11b";
+    $font-Flaticon-user-1: "\f11c";
+    $font-Flaticon-follow: "\f11d";
+    $font-Flaticon-question: "\f11e";
+    $font-Flaticon-whatsapp: "\f11f";
+    $font-Flaticon-instagram: "\f120";
+    $font-Flaticon-facebook-1: "\f121";
+    $font-Flaticon-placeholder-1: "\f122";
+    $font-Flaticon-share: "\f123";
+    $font-Flaticon-mail: "\f124";
+    $font-Flaticon-email: "\f125";
+    $font-Flaticon-like: "\f126";
+    $font-Flaticon-list: "\f127";
+    $font-Flaticon-menu: "\f128";
