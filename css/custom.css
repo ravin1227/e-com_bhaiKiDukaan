@@ -1,0 +1,794 @@
+
+hr.rounded {
+  margin-top: 35px;
+  border-top: 6px solid #bbb;
+  border-radius: 5px;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.help_sec ul li a{
+  color: rgb(7, 7, 7);
+  text-transform: uppercase;
+}
+.help_sec ul li a:hover{
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.bar_content{
+    /* padding-top: 10px; */
+    max-height: 45px;
+    background-color: rgb(251, 255, 255);
+
+}
+.bar_content ul li{
+    display: inline-block;
+    margin: 9px 15px 0 15px;
+    font-size: 14.7px;
+}
+
+.search_bar{
+    padding: 10px 15px 10px 10px;
+    height: 59px;
+}
+.site_logo{
+    margin-left: 40px;
+
+}
+.search_bar ul li {
+  display: inline-block;
+  margin-top: -5px;
+  margin-right: 20px;
+  margin-left: -15px;
+}
+
+.nav_icons span:before{
+  font-size: 33px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.nav_icons ul li a:hover{
+  color: red;
+}
+
+.search_bar ul li a:hover{
+  color: rgb(78, 27, 218);
+  text-decoration: none;
+  }
+
+/* .row border-bottom{
+    border: 3px solid red
+} */
+
+
+.category_bar ul li a{
+    text-transform: uppercase;
+}
+.category_bar{
+    background-color:rgb(248, 240, 240);
+}
+
+.alert-warning{
+  text-align: center;
+}
+
+.category_heading h2{
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.category_heading p{
+    margin: 15px 65px;
+    text-align: center;
+    
+}
+
+.card{
+     margin-top: 30px;
+}
+.card ul li{
+    display: inline-block;
+    margin-right: 30px;
+    size: 25px;
+}
+
+.new_arrivals h2{
+    margin-top: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.new_arrivals p{
+    margin: 10px 65px;
+    text-align: center;
+    
+}
+
+.new_arrivals_card{
+    margin: 15px 0 0 79px;
+}
+
+.new_arrivals card ul li{
+    display: inline-block;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .product_img {
+      margin-top: 30px;
+      margin-left: 20px;
+      position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+ 
+  
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  /* .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  } */
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+    margin-left: 15px;
+    margin-top: -14px;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+    margin-top: -14px;
+  }
+  .qty_num{
+    margin-left: 10px;
+    width: 90px;
+  }
+
+  .buy_button{
+      margin-left: -145px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      
+  }
+
+.ratting_product1 h6{
+  color: rgb(126, 114, 114);
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.price ul {
+  margin-left: -34px;
+}
+.price ul li{
+  margin-right: 20px;
+}
+.price ul li{
+  display: inline-block;
+  margin-top: 15px;
+  
+}
+
+.price .new_price{
+  color:#333;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.price .old_price{
+  text-decoration: line-through;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price .offper{
+  color:rgb(35, 199, 62);
+  font-style: italic;
+  font-weight: bold;
+}
+  
+.check_avail ul li{
+  display: inline;
+}
+
+.add_cart{
+  float: left;
+}
+.buy_now{
+  /* float: right; */
+  margin-left: 10px;
+}
+.cat_icon ul li a{
+  color: rgb(185, 19, 19);
+}
+.cat_icon ul li a:hover{
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+
+
+.cat_icon ul li{
+  display: inline;
+  margin-right: 70px;
+  
+}
+.cat_icon span:before{
+  font-size: 55px;
+}
+.cat_iconr2 span:before{
+  font-size: 55px;
+  margin-top: -90px;
+  padding-top: -95px;
+}
+
+
+/* sticky category bar */
+#category_bar_stick {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* category_bar_stick links */
+#category_bar_stick a {
+  float: left;
+  display: block;
+  color: #dd9f9f;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#category_bar_stick a:hover{
+  color: rgb(252, 248, 248);
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the category_bar_stick with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* drop down profile*/
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd; min-width: 160px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* footer */
+.footer{
+  background-color: #2F4858;
+  margin-top: 30vh;
+}
+.footer h5{
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: oblique;
+  color:#ffffff;
+  text-decoration: underline ;
+}
+
+.footer p{
+  color: #ffffff;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.footer_links ul li {
+  list-style-type:none;
+  
+}
+
+.footer_links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer_links ul li a:hover {
+  color: orange;
+  list-style: none;
+}
+
+.footer_links h5{
+  margin-left: 38px ;
+}
+
+.card_old_price{
+  margin-left: -30px;
+  font-size: 19px;
+  text-decoration: line-through;
+}
+.card_new_price{
+  font-weight: bold;
+  font-size: 19px;
+
+  
+}
+
+.card-body h4{
+  color: #333;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.card-body a{
+  text-decoration: none;
+}
+.card-body h4:hover{
+  color:#272264 ;
+}
+.profile_avatar img{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  
+}
+.profile_avatar{
+  margin-left: -25px;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 19PX;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.comment-wrapper .panel-body {
+  max-height:650px;
+  overflow:auto;
+}
+.comment-wrapper .media-list .media img {
+  width:64px;
+  height:64px;
+  border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+  border-bottom:1px dashed #efefef;
+  margin-bottom:25px;
+}
+                                  
+.product_panel-heading{
+  height: 35px;
+    background-color: #d9edf7;
+}
+
+.comment-wrapper{
+  border:2px solid #D9EDF7;
+}
+
+.fiex_product_img{
+  max-height: 100vh;
+  margin-left: -20px;
+  margin-right: 10px;
+ 
+}
+
+.address{
+  display: flex;
+  background-color: #F5F5F5;
+  margin-bottom:25px;
+  font-style:normal;
+  line-height:1.42857143;
+  /* border: 1px solid black; */
+  text-transform: uppercase;
+}
+.address__icon span{
+  border: 1px;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+
+}
+.address__icon span::before{
+  font-size: 50px;
+}
+
+.title__line--6{
+  margin-top: 15px;
+  color: #4D4D4D;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.address__details {
+  padding: 25.5px 5px 17.5px 13px;
+}
+.contact_us_store{
+  margin-top: 25px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.contact_box_detail input{
+  width: 352px;
+  height: 60px;
+  background-color:#F5F5F5 ;
+  margin-right: 15px;
+  border: none;
+  font-weight: bold;
+  padding: 25px 35px;
+}
+.single_contact_form textarea{
+  background: #f5f5f5;
+  border: 0 none;
+  color: #666666;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 100%;
+  height: 250px;
+  padding-left: 35px;
+  padding-top: 25px;
+}
+.send_message{
+  margin-left: 45px;
+  margin-top: 15px;
+  width: 195px;
+  height: 55px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:#FFA722 ;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 55px;
+}
+
+.custom_order h2{
+  padding-left: 35px;
+  padding-top: 25px;
+  font-weight: bolder;
+}
+
+.custom_order p{
+  margin-top: 13px;
+  padding-left: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(237, 155, 100);
+}
+
+.authore_card{
+  margin-left: 380px;
+  margin-top: 25px;
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: aquamarine;
+}
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+  height: 297.39px;
+}
+
+.fa-stack[data-count]:after{
+  position:absolute;
+  /* right:0%;
+  top:0%; */
+  content: attr(data-count);
+  font-size:40%;
+  padding:.6em;
+  border-radius:999px;
+  line-height:.75em;
+  color: white;
+  /* color:shopping-cart-red; */
+  text-align:center;
+  min-width:2em;
+  font-weight:bold;
+  background: rgb(196, 36, 36);
+  border-style:solid;
+}
+.fa-circle {
+  color:#DF0000;
+}
+
+.checkout-page{
+  height: 95vh;
+}
+.address_sec .card{
+  width:850px;
+  align-items: flex-start;
+  height:88vh;
+ 
+}
+.address_sec input{
+  width: 400px;
+  margin:15px 10px 15px 10px ;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.address_sec textarea{
+  width: 825px;
+  padding-left: 10px;
+  font-style: italic;
+}
+.order-details .card{
+  width: 400px;
+}
+.order-details .card single-item{
+  display: block;
+}
+.order-details .single-item__thumb img {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: -35PX;
+}
+
+.payment_method input{
+  width: 50px;
+}
+
+.payment_method button{
+  border: none;
+    background-color: #333333;
+    color: #fff;
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+}
+.my_order .card{
+  margin-left: 160px;
+  width: 900px;
+  height: 110px;
+}
+.my_order .card col{
+  display: inline;
+}
+.my_order .card img{
+  height: 75px;
+  width: 74px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.my_order .card .p_name{
+  margin-left:60px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.my_order .card .price{
+  margin-left:50px;
+  margin-top: 25px;
+  font-weight: bold;
+
+}
+.my_order .card .o_date {
+  margin-top: 25px;
+  margin-left: 60px;
+}
+.my_order .card .delivery_date{
+  margin-top: 10px;
+  margin-left:100px;
+}
+
+.order_proto1 table{
+  border: 2px solid black;
+  margin-top: 15px;
+}
+.order_proto1 td{
+  border: 2px solid black;
+}
+.order_proto1 tr{
+  border: 2px solid black;
+}
+
+.track_order_search{
+  margin-top: 25px;
+  margin-left: 250px;
+  margin-bottom: 25vh;
+}
+
+
+.timeline_area{
+  margin: 90px auto;
+  width: 360px;
+  border-left: 2px solid #ccc;
+  padding: 0 20px 0 30px;
+  margin-top: -90px;
+  margin-left: 190px;
+}
+.timeline_area .card{
+  width: 490px;
+  height: auto;
+}
+/* .timeline_area div{ 
+  background-color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  line-height: 1.7;
+  position: relative;
+  height: 110px;
+  margin-bottom: 20px;
+} */
+.timeline_area div:before{ 
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #000;
+  border: 3px solid #ddd;
+  position: absolute;
+  top: 10px;
+  left: -40px;
+}
+.timeline_area div:after{ 
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color:transparent #ddd transparent transparent ;
+  border-width: 8px;
+  position: absolute;
+  left: -17px;
+  top: 10px;
+}
+.timeline_area div h2{ 
+  margin: 0;
+  text-transform: uppercase;
+}
+.timeline_area div h3{ 
+  margin: 0;
+}
+.timeline_area div h4{ 
+  text-transform: uppercase;
+  margin: 0;
+}
+.timeline_area div p{ 
+  margin: 0;
+}
+
+.w3-green{
+  height: auto;
+  position: relative;
+  margin-top: 15px;
+}
+
+ .track_order_product .card img{
+   height: 90px;
+   width: 90px;
+   border-radius: 5px;
+
+ } 
+  
